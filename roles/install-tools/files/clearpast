@@ -1,0 +1,7 @@
+#!/bin/bash
+
+(return 0 &> /dev/null) && SOURCED=1 || SOURCED=0  # can only `return' from a function or sourced script
+
+[ $SOURCED -ne 0 ] || { echo "usage: . $0" && exit; }
+
+rm -f ~/.bash_history && history -c
