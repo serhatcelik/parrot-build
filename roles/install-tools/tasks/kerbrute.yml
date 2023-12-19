@@ -9,7 +9,7 @@
     cd /tmp/kerbrute
     go build
 
-- name: Move kerbrute to PATH
+- name: Copy kerbrute to PATH
   copy:
     src: /tmp/kerbrute/kerbrute
     dest: "{{ ansible_env.HOME }}/.local/bin"
