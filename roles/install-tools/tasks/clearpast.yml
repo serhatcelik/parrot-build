@@ -1,0 +1,6 @@
+---
+- name: Copy clearpast to PATH
+  copy:
+    src: "{{ role_path }}/files/clearpast"
+    dest: "{{ ansible_env.HOME }}/.local/bin"
+    mode: 0750
