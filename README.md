@@ -1,2 +1,11 @@
-* Install Ansible with `python3 -m pip install ansible` and clone this repo with `git clone https://github.com/serhatcelik/parrot-build` to your home directory.
-* Get sudo token with `sudo whoami` and run Ansible playbook with `ansible-playbook ~/parrot-build/main.yml` to execute the defined tasks.
+Install Ansible and clone this repo to your home directory:
+
+```bash
+python3 -m pip install ansible && git clone https://github.com/serhatcelik/parrot-build
+```
+
+Get sudo token and run Ansible playbook to execute the defined tasks:
+
+```bash
+sudo whoami && ansible-playbook ~/parrot-build/main.yml
+```
