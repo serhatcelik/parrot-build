@@ -35,5 +35,5 @@ use-skey=true
 use-system-font=true
 use-theme-colors=false
 use-urls=true
-visible-name='My Profile'
+visible-name='My'
 word-chars='-A-Za-z0-9,./?%&#:_=+@~'
