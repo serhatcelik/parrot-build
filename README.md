@@ -1,4 +1,4 @@
-Create a virtual environment and activate it (externally-managed-environment):
+Create a virtual environment and activate it (`externally-managed-environment`):
 
 ```bash
 python3 -m venv ~/venv && . ~/venv/bin/activate
