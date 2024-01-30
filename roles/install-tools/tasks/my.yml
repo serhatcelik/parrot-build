@@ -1,7 +1,7 @@
 ---
 - name: Clone gist, clearpast
   git:
-    repo: https://gist.github.com/a0732c6bce8ab7b770a6a1e2b0849e02.git
+    repo: https://gist.github.com/c32dcd72b944596e95717bd10a9b5b75.git
     dest: /tmp/clearpast
 
 - name: Copy clearpast to PATH
