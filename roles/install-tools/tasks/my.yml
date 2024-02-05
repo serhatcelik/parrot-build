@@ -12,7 +12,7 @@
 
 - name: Clone gist, cleanupgrade
   git:
-    repo: https://gist.github.com/c24ee67f08d7f2256cceaee084becff0.git
+    repo: https://gist.github.com/7131e99feb97eb51a3ac184d5735952c.git
     dest: /tmp/cleanupgrade
 
 - name: Copy cleanupgrade to PATH
