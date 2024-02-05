@@ -23,7 +23,7 @@
 
 - name: Clone gist, sysbackup
   git:
-    repo: https://gist.github.com/17e62ce440d5cc91b0a1dd82a2d60ae7.git
+    repo: https://gist.github.com/96585cfb7459048e4f078793256f306d.git
     dest: /tmp/sysbackup
 
 - name: Copy sysbackup to PATH
