@@ -1,7 +1,7 @@
 ---
 - name: Clone gist, clearpast
   git:
-    repo: https://gist.github.com/c32dcd72b944596e95717bd10a9b5b75.git
+    repo: https://gist.github.com/69983bc22086772135d3b73872ead567.git
     dest: /tmp/clearpast
 
 - name: Copy clearpast to PATH
@@ -12,7 +12,7 @@
 
 - name: Clone gist, cleanupgrade
   git:
-    repo: https://gist.github.com/7a32c240911144f4781e2cd1f6122eb8.git
+    repo: https://gist.github.com/c24ee67f08d7f2256cceaee084becff0.git
     dest: /tmp/cleanupgrade
 
 - name: Copy cleanupgrade to PATH
