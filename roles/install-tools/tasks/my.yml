@@ -1,7 +1,7 @@
 ---
 - name: Clone gist, clearpast
   git:
-    repo: https://gist.github.com/026faf1f0d83fd63c2ef98405b29973e.git
+    repo: https://gist.github.com/1d722e0b177fa86ecd5782c5ec132e5f.git
     dest: /tmp/clearpast
 
 - name: Copy clearpast to PATH
@@ -10,20 +10,9 @@
     dest: "{{ ansible_env.HOME }}/.local/bin"
     mode: 0750
 
-- name: Clone gist, cleanupgrade
-  git:
-    repo: https://gist.github.com/746045240f9a522b009ec6bc3e86e836.git
-    dest: /tmp/cleanupgrade
-
-- name: Copy cleanupgrade to PATH
-  copy:
-    src: /tmp/cleanupgrade/cleanupgrade
-    dest: "{{ ansible_env.HOME }}/.local/bin"
-    mode: 0750
-
 - name: Clone gist, sysbackup
   git:
-    repo: https://gist.github.com/96585cfb7459048e4f078793256f306d.git
+    repo: https://gist.github.com/478c667e6ad69244f173c6e6ae583851.git
     dest: /tmp/sysbackup
 
 - name: Copy sysbackup to PATH
