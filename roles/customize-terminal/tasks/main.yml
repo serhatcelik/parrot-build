@@ -30,4 +30,3 @@
   shell:
     cmd: "dconf load /org/mate/terminal/profiles/my-profile/ < {{ role_path }}/files/my-profile"
   when: "'my-profile' not in profile_list.value"
-
