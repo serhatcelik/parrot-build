@@ -14,4 +14,3 @@
     src: /tmp/kerbrute/kerbrute
     dest: "{{ ansible_env.HOME }}/.local/bin"
     mode: 0750
-
